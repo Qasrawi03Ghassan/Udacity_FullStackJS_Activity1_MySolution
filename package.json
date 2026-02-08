@@ -1,0 +1,16 @@
+{
+  "name": "act1",
+  "version": "1.0.0",
+  "description": "Activity 1 solution - FS JS NANO Degree - Ghassan Qasrawi",
+  "license": "ISC",
+  "author": "Ghassan Qasrawi",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^10.0.0",
+    "prettier": "^3.8.1"
+  }
+}
