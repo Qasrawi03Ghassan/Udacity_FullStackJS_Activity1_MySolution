@@ -1,6 +1,6 @@
-import { Car } from "../utilities/util1.js";
-import { addLogs, mulExponents } from "../utilities/util2.js";
-import { sumArr,addConst,extractFromArr } from "../utilities/util3.js";
+import { Car } from "../utilities/Car.js";
+import { addLogs, mulExponents } from "../utilities/Math.js";
+import { sumArr,addConst,extractFromArr } from "../utilities/Array.js";
 
 
 const Arr1 = [5,4,3,6,9,2,1];

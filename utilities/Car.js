@@ -1,7 +1,4 @@
-/*
-A car class with private length, width and height properties as well as public weight property and a function that calculates the volume 
-*/
-class Car{
+export class Car{
 
     #length = 0;
     #width = 0;
@@ -41,5 +38,3 @@ class Car{
         return (this.#length * this.#height * this.#width);
      };
 };
-
-export {Car};
