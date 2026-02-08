@@ -11,6 +11,7 @@ const addedValue = 1;
 
 let A = 15;
 let B = 60;
+let base = 2;
 
 let N1 = 3;
 let N2 = 4;
@@ -26,7 +27,7 @@ console.log('Weight: ' + x.weight + ' tons.');
 console.log('Volume: ' + x.calcVolume() + ' Meters cubic.');
 console.log('============================================================\n');
 console.log('Exponent multiplication on A and B: ' + mulExponents(A,B,N1,N2));
-console.log('Logarithmic addition on A and B: ' + addLogs(A,B));
+console.log('Logarithmic addition on A and B: ' + addLogs(A,B,base));
 console.log('============================================================\n');
 console.log('Add constant value to all elements of array 1: ' +addConst(addedValue,Arr1));
 console.log('Extract value of array 2: ' + extractFromArr(5,Arr2));
