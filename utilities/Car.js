@@ -14,23 +14,23 @@ export class Car{
         this.weight = weight;
      };
 
-     setLength(length){
+     set length(length){
         this.#length = length;
     };
-    setWidth(width){
+    set width(width){
         this.#width = width;
     };
-    setHeight(height){
+    set height(height){
         this.#height = height;
     };
 
-      getLength(){
+      get length(){
         return this.#length;
     };
-     getWidth(){
+     get width(){
         return this.#width;
     };
-     getHeight(){
+     get height(){
         return this.#height;
     };
 

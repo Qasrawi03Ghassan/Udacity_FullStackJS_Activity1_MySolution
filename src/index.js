@@ -20,9 +20,9 @@ let  x = new Car(3,2,1,1.5);
 
 console.log('============================================================');
 console.log('X car stats:\n');
-console.log('Length: ' + x.getLength() + ' Meters.');
-console.log('Width: ' + x.getWidth() + ' Meters.');
-console.log('Height: ' + x.getHeight() + ' Meters.');
+console.log('Length: ' + x.length + ' Meters.');
+console.log('Width: ' + x.width + ' Meters.');
+console.log('Height: ' + x.height + ' Meters.');
 console.log('Weight: ' + x.weight + ' tons.');
 console.log('Volume: ' + x.calcVolume() + ' Meters cubic.');
 console.log('============================================================\n');
